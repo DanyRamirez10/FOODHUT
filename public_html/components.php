@@ -35,6 +35,7 @@
         }
     </style>
   </head>
+   <form id="login_php" class="form-horizontal form-bordered form-control-borderless">
   <body class="d-flex d-flex flex-row-reverse align-items-center vh-100 rg rg">
     <div
       class="rg bg-white p-5 rounded-5 text-secondary shadow"
@@ -94,6 +95,7 @@
       </div>
       <div class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">
         Login
+        
       </div>
       <div class="d-flex gap-1 justify-content-center mt-1">
         <div>Don't have an account?</div>
@@ -103,4 +105,8 @@
         </div>
     </div>
   </body>
+
 </html>
+
+        <script>$(function(){ Login.init(); });</script>
+ 

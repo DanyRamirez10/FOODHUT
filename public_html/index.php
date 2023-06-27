@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +54,7 @@
                     <a href="#" class="nav-link" href="#contact">Registrar</a>
                 </li>
                 <li class="nav-item" >
-                    <a href="components.html" class="btn btn-primary ml-xl-4">Iniciar sesion</a>
+                    <a href="components.php" class="btn btn-primary ml-xl-4">Iniciar sesion</a>
                 </li>
                 <li class="nav-item dropdown-toggle log ">
                     <span ><i class="fa-solid fa-user"></i></span>
