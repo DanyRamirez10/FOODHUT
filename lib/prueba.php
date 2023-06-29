@@ -1,7 +1,7 @@
 <?php
     include_once 'functions.php';
     $clave = "123456";
-    $llave = "proyecto_2023";
+    $llave = "unamba_2023_eapiis";
     $new_clave = encrypt($clave,$llave);
     echo "la clave inicial es : ".$clave;
     echo "<br>";

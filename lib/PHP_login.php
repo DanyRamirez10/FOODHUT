@@ -18,7 +18,6 @@
         if($correo_consulta<1){
             $errors[]= "El Correo no es valido";
         }else{
-            $errors[]= "El Correo  es valido";
             $sql = "SELECT *FROM usuario WHERE emaUsu='$email' AND pasUsu = '$password'"  ;
             $consulta= $conector->query($sql);
             $pass_consulta=$consulta->num_rows;            
@@ -39,7 +38,6 @@
                 }              
                 
             }else{
-            $errors[]= "contraseña valida";
                 while($fila = $consulta->fetch_array())
                 {
                     $id_user = $fila['codUsu'];

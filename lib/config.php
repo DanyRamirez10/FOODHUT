@@ -1,12 +1,12 @@
 <?php
     date_default_timezone_set('America/Lima');
     $template = array(
-        'nom_proyecto' => 'FOODFUT',
-        'author' => 'GRUPO1',
+        'nom_proyecto' => 'SAG UNAMBA',
+        'author' => 'LMACH',
         'version' => '1.0',
-        'descripcion' => 'Platos',
-        'robots' => 'restaurant,Deli,abancay,comida',
-        'clave_publica' => 'proyecto_2023',
+        'descripcion' => 'Sistema Academico de Gestion universitaria - UNAMBA',
+        'robots' => 'unamba,sag,abancay,educacion',
+        'clave_publica' => 'unamba_2023_eapiis',
         'icono' => 'assets/images/logo.ico'
     );
 ?>

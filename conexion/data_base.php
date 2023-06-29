@@ -2,5 +2,5 @@
     $servidor = "localhost";
     $usuario = "root";
     $password = "";
-    $basededatos = "restaurant";
+    $basededatos = "io_futbol";
 ?>
